@@ -11,54 +11,52 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top">Viivaz</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+        <div class="container"><img class="navbar-brand" src="assets/img/logo.jpg"><a class="navbar-brand" href="#page-top">Viivaz<p class="text-white fst-italic fs-6">Redefining Luxury</p></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto text-uppercase">
-                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">FEEDBACK</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#feedback">FEEDBACK</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image:url('assets/img/Faces.jpg');">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"><span>Welcome To Our Studio!</span></div>
-                <div class="intro-heading text-uppercase"><span>It's Nice To Meet You</span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="#services">Tell me more</a>
+    <header class="masthead">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/Faces.jpg" alt="Slide Image">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white display-3 fw-bolder">Design your living space, your way<br></h1>
+                    </div>
+                </div>
+                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/YogaGirls.jpg" alt="Slide Image">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white display-3 fw-bolder">Breathe life into your living space<br></h1>
+                    </div>
+                </div>
+                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/BlackDeers.jpg" alt="Slide Image">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="text-white display-3 fw-bolder">Break the rules, create new normal<br></h1>
+                    </div>
+                </div>
             </div>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+            </ol>
         </div>
     </header>
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Services</h2>
-                    <h3 class="text-muted section-subheading">Come and experience our best class Services</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-home fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Home Decor</h4>
-                    <p class="text-muted">We are the leaders in bespoke decorative items. Our artifacts, paintings, planters will not only enhance beauty of your house but will make it look luxurious.</p>
-                </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-truck fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Pan India Delivery</h4>
-                    <p class="text-muted">we believe in serving you at your doorstep. With our Pan-India Delivery you are just a click away from your Dream Decor.</p>
-                </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-smile-o fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Customer Satisfaction</h4>
-                    <p class="text-muted">Happy customers beats the best Marketing strategies. Therefore Customer Satisfaction is our prime motto. With us you will have your best shopping experience.</p>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="bg-light" id="portfolio">
         <div class="container">
             <div class="row">
@@ -128,10 +126,108 @@
                         <p class="text-muted">Luxury at your Table Top</p>
                     </div>
                 </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal7" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/GoldenHorse.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Golden Horse</h4>
+                        <p class="text-muted">Luxury at your Table Top</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal8" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/Setof2bulls.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Black &amp; White</h4>
+                        <p class="text-muted">Luxury at your Table Top</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal9" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/setof3.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Set of 3</h4>
+                        <p class="text-muted">Luxury at your Table Top</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal10" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/BlackReindeer.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Black Reindeer</h4>
+                        <p class="text-muted">Luxury at your Table Top</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal11" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/portfolio/MusicalLadies.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Musical Ladies</h4>
+                        <p class="text-muted">Luxury at your Table Top</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" href="#portfolioModal12" data-bs-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/Faces.jpg">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Surreal Faces</h4>
+                        <p class="text-muted">Luxury at your Table Top</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">Services</h2>
+                    <h3 class="text-muted section-subheading">Come and experience our best class Services</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fas fa-home fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading">Home Decor</h4>
+                    <p class="text-muted">We are the leaders in bespoke decorative items. Our artifacts, paintings, planters will not only enhance beauty of your house but will make it look luxurious.</p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-truck fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading">Pan India Delivery</h4>
+                    <p class="text-muted">we believe in serving you at your doorstep. With our Pan-India Delivery you are just a click away from your Dream Decor.</p>
+                </div>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-smile-o fa-stack-1x fa-inverse"></i></span>
+                    <h4 class="section-heading">Customer Satisfaction</h4>
+                    <p class="text-muted">Happy customers beats the best Marketing strategies. Therefore Customer Satisfaction is our prime motto. With us you will have your best shopping experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading">ABOUT</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <p>As home is all about making and creating<br> one's own paradise, so we, at Viivaz, take this as our responsibility to<br> enlighten our customers' space with best quality products at affordable prices.<br><br>Our pieces are made with extreme perfection<br> as our production unit holds some of the best artisans of India who provide a<br> unique flavour and angle to the products.<br><br>Here, you can find vibrantly styled surreal<br> faces, mood lighting &amp; therapeutic table accents, wonderfully carved<br> sculptures, immaculate and lavish wall decors and many more.<br><br>Not only this, we also exude exceptional<br> services and are in talks with some great brand collaborations that will be<br> taking place in near future. Moreover, we take tremendous pride in flaunting<br> that our customers’ satisfaction is our top priority and hence, our store contains<br> some exclusive customized products that display our clients’ faith in us.<br><br>Thank you so much for showing interest in<br> our products!<br><br>Looking forward to…<br></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="feedback">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -200,17 +296,7 @@
             </div>
         </div>
     </section>
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/creative-market.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/designmodo.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/envato.jpg"></a></div>
-                <div class="col-sm-6 col-md-3"><a href="#"><img class="img-fluid d-block mx-auto" src="assets/img/clients/themeforest.jpg"></a></div>
-            </div>
-        </div>
-    </section>
-    <section id="contact" style="background-image:url('assets/img/map-image.png');">
+    <section id="contact" class="my-2" style="background-image:url('assets/img/map-image.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -220,10 +306,9 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="text-white">Email(s)    : viivaz.enterprise@gmail.com / info@viivaz.com </p>
-                    <p class="text-white">Phone(s)    : (+91) 9717703127 / (+91) 9717703128 </p>
-                    <p class="text-white">Address     : South City-1, Gurgaon, Haryana</p>
-
+                    <p class="text-white">Email : Viivaz.enterprise@gmail.com/Info@viivaz.com</p>
+                    <p class="text-white">Phone : +91-9717703127/+91-9717703128<br></p>
+                    <p class="text-white">Address : South City-1, Gurgaon, Haryana<br><a href="https://maps.app.goo.gl/Ezfun3nBjG4bE9oFA"><i class="fa fa-map-marker fa-stack-2x fa-inverse"></i></a></p>
                 </div>
             </div>
         </div>
@@ -236,6 +321,7 @@
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item"><a href="https://www.instagram.com/viivaz.luxe/"><i class="fa fa-instagram"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.facebook.com/Viivaz-Enterprise-111230201340849/"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -379,8 +465,142 @@
             </div>
         </div>
     </div>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal7">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">Golden HORSE</h2>
+                                <p class="text-muted item-intro">Luxury at your Table Top<br></p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/GoldenHorse.jpg">
+                                <p>Decorate your house with this beautiful artifact. It will definitely add touch of luxury to your home.<br></p>
+                                <ul class="list-unstyled">
+                                    <li>Price:</li>
+                                    <li>Brand:</li>
+                                    <li>Category:</li>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal8">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">BLACK &amp; WHITE</h2>
+                                <p class="text-muted item-intro">Luxury at your Table Top<br></p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Setof2bulls.jpg">
+                                <p>Decorate your house with this beautiful artifact. It will definitely add touch of luxury to your home.<br></p>
+                                <ul class="list-unstyled">
+                                    <li>Price:</li>
+                                    <li>Brand:</li>
+                                    <li>Category:</li>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal9">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">SET 0F 3</h2>
+                                <p class="text-muted item-intro">Luxury at your Table Top<br></p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/setof3.jpg">
+                                <p>Decorate your house with this beautiful artifact. It will definitely add touch of luxury to your home.<br></p>
+                                <ul class="list-unstyled">
+                                    <li>Price:</li>
+                                    <li>Brand:</li>
+                                    <li>Category:</li>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal10">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">BLACK ReINDEER</h2>
+                                <p class="text-muted item-intro">Luxury at your Table Top<br></p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/BlackReindeer.jpg">
+                                <p>Decorate your house with this beautiful artifact. It will definitely add touch of luxury to your home.<br></p>
+                                <ul class="list-unstyled">
+                                    <li>Price:</li>
+                                    <li>Brand:</li>
+                                    <li>Category:</li>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal11">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">MUSICAL LADIES</h2>
+                                <p class="text-muted item-intro">Luxury at your Table Top<br></p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/MusicalLadies.jpg">
+                                <p>Decorate your house with this beautiful artifact. It will definitely add touch of luxury to your home.<br></p>
+                                <ul class="list-unstyled">
+                                    <li>Price:</li>
+                                    <li>Brand:</li>
+                                    <li>Category:</li>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade text-center portfolio-modal" role="dialog" tabindex="-1" id="portfolioModal12">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <h2 class="text-uppercase">FACES</h2>
+                                <p class="text-muted item-intro">Luxury at your Table Top<br></p><img class="img-fluid d-block mx-auto" src="assets/img/Faces.jpg">
+                                <p>Decorate your house with this beautiful artifact. It will definitely add touch of luxury to your home.<br></p>
+                                <ul class="list-unstyled">
+                                    <li>Price:</li>
+                                    <li>Brand:</li>
+                                    <li>Category:</li>
+                                </ul><button class="btn btn-primary" type="button" data-bs-dismiss="modal"><i class="fa fa-times"></i><span>&nbsp;Close</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
